@@ -1,0 +1,35 @@
+page-welcome {
+
+    .container {
+        padding: 30px;
+    }
+    .welcome-logo {
+        margin-top: 85px;
+    }
+
+    .welcome-message {
+        color: map-get($colors, primary);
+        font: 24px/32px $primary;
+        margin-top: 55px;
+        margin-bottom: 35px;
+    }
+
+    .action-group {
+        .btn {
+            margin-bottom: 10px;
+        }
+    }
+
+    .terms-links {
+        font: 400 14px/18px $primary;
+        color: #808080;
+    }
+
+    .skip-button {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font: 400 16px/18px $primary;
+        color: #808080;
+    }
+}

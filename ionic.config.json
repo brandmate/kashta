@@ -1,0 +1,8 @@
+{
+  "name": "kashta",
+  "app_id": "04c7f5d8",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

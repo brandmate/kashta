@@ -1,0 +1,16 @@
+<ion-content no-bounce>
+  <div class="container">
+      <img class="welcome-logo" src="assets/imgs/dark-logo.png" alt="">
+
+      <h1 class="welcome-message">Welcome to <strong>World First</strong> platform specialized in <strong>Sports Deals</strong></h1>
+    
+      <div class="action-group">
+        <button class="btn btn-large btn-facebook">Continue with facebook</button>
+        <button class="btn btn-large btn-primary" (click)="goToLoginPage()">Signin</button>
+        <button class="btn btn-large btn-light" (click)="goToSignupPage()">Create an account</button>
+      </div>
+    
+      <p class="terms-links">By creating or logging to an account, you’re agreeing with our <a href="">terms and condition</a> and <a href="">privacy statement</a></p>
+      <a class="skip-button" href="javaScript:;" (click)="goToHomePage()">Skip</a>
+  </div>
+</ion-content>

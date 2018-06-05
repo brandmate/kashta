@@ -1,0 +1,53 @@
+.container {
+    padding: 30px;
+}
+
+.btn {
+    display: block;
+    border-radius: 5px;
+
+    &-large {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        font: 400 16px/18px $primary;
+    }
+
+    &-primary {
+        background: map-get($colors, primary );
+        color: #fff;
+    }
+
+    &-light {
+        background: #fff;
+        color: map-get($colors, dark);
+        border: 1px solid map-get($colors, light);
+    }
+}
+
+a {
+    color: #337AB7;
+    text-decoration: none;
+}
+
+.form-temp .item.item-block.item-input.item-label-stacked {
+
+    padding-left: 0px;
+}
+
+.form-temp {
+    ion-label.label {
+        font: 500 16px/26px $primary;
+        text-transform: uppercase;
+        color: map-get($colors, dark );
+    }
+
+    ion-input.input {
+        font: 400 16px/26px $primary;
+        color: #808080;
+    }
+    .item-md.item-block .item-inner {
+        border-bottom: 1px solid #808080;
+    }
+}
+
