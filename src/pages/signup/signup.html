@@ -1,18 +1,33 @@
-<!--
-  Generated template for the SignupPage page.
+<ion-content>
+    <button class="btn btn-back" (click)="goBackWelcomePage()"><i class="fas fa-chevron-left"></i></button>
+  
+    <div class="container">  
+      <h1 class="login-title">Signup</h1>
+  
+      <h2 class="login-subtitle">Signup to continue</h2>
+  
+      <div class="form-temp">
+        <ion-item>
+          <ion-label stacked>Full Name</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>Signup</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+        <ion-item>
+          <ion-label stacked>Email Address</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label stacked>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+  
+        <button class="btn btn-large btn-secondary">Signin</button>
+  
+        <p class="create-account-link">Don’t have an account? <a href="javaScript:;" (click)="goToSigninPage()">Signin</a></p>
+        
+      </div>
+      
+    </div>
+  </ion-content>
+  

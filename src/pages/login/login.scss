@@ -10,4 +10,17 @@ page-login {
         color: #808080;
         margin-bottom: 75px;
     }
+
+    .forget-password {
+        text-align: right;
+        font: 400 16px/18px $primary;
+        margin: 5px 0px;
+        margin-bottom: 25px;
+    }
+
+    .create-account-link {
+        text-align: center;
+        font: 400 16px/18px $primary;
+        color: #808080;
+    }
 }

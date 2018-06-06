@@ -1,27 +1,24 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SignupPage } from '../signup/signup';
+import { TabsPage } from '../tabs/tabs';
+
 
 @IonicPage()
 @Component({
-  selector: 'page-login',
-  templateUrl: 'login.html',
+  selector: 'page-categories',
+  templateUrl: 'categories.html',
 })
-export class LoginPage {
+export class CategoriesPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
+    console.log('ionViewDidLoad CategoriesPage');
   }
 
-  goBackWelcomePage() {
+  goBack() {
+    console.log("adjhfa sdkfa sdfsd");
     this.navCtrl.pop();
   }
-
-  goToSignupPage() {
-    this.navCtrl.push(SignupPage);
-  }
-
 }

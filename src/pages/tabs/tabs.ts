@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-
-import { AboutPage } from '../about/about';
-import { ContactPage } from '../contact/contact';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
+import { CategoriesPage } from '../categories/categories';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -10,10 +9,11 @@ import { HomePage } from '../home/home';
 export class TabsPage {
 
   tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
 
-  constructor() {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
+  goToCategoriesPage() {
+    console.log('shbalo');
+    this.navCtrl.push(CategoriesPage);
   }
 }

@@ -23,6 +23,22 @@
         color: map-get($colors, dark);
         border: 1px solid map-get($colors, light);
     }
+
+    &-secondary {
+        background: map-get($colors, secondary );
+        color: #fff;
+    }
+
+    &-back {
+        background: transparent;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+
+        i {
+            font-size: 24px;
+        }
+    }
 }
 
 a {
@@ -51,3 +67,50 @@ a {
     }
 }
 
+// header style
+ion-header{
+    ion-navbar.toolbar {
+        padding: 30px 10px;
+
+        &.search-bar {
+            padding: 50px 10px 10px 10px;
+        }
+        
+        ion-title {
+            background: map-get($colors, primary);
+    
+            .toolbar-title {
+                font: 500 20px $primary;
+                color: #fff;
+            }
+        }
+
+        .bar-button-default {
+            color: #fff;
+
+            .back-button-text {
+                display: none;
+            }
+        }
+
+        .toolbar-background {
+            background: map-get($colors, primary);  
+        }
+
+        input.searchbar-input {
+            background: #fff !important;
+            height: 45px;
+        }
+
+        .searchbar-search-icon {
+            margin-top: 8px;
+        }
+    }
+}
+
+// titles
+
+.page-title {
+    font: 500 24px $primary;
+    color: map-get($colors, dark);
+}

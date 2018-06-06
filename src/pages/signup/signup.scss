@@ -1,3 +1,23 @@
 page-signup {
+    .login-title {
+        font: 400 30px/36px $primary;
+        color: #000;
+        margin-top: 115px;
+    }
 
+    .login-subtitle {
+        font: 300 18px/24px $primary;
+        color: #808080;
+        margin-bottom: 55px;
+    }
+
+    .create-account-link {
+        text-align: center;
+        font: 400 16px/18px $primary;
+        color: #808080;
+    }
+
+    .btn.btn-secondary {
+        margin-top: 20px;
+    }
 }

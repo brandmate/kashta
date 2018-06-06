@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { LoginPage } from '../login/login';
 
 /**
- * Generated class for the SignupPage page.
+ * Generated class for the DealsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,23 +10,16 @@ import { LoginPage } from '../login/login';
 
 @IonicPage()
 @Component({
-  selector: 'page-signup',
-  templateUrl: 'signup.html',
+  selector: 'page-deals',
+  templateUrl: 'deals.html',
 })
-export class SignupPage {
+export class DealsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SignupPage');
+    console.log('ionViewDidLoad DealsPage');
   }
 
-  goBackWelcomePage() {
-    this.navCtrl.pop();
-  }
-
-  goToSigninPage() {
-    this.navCtrl.push(LoginPage);
-  }
 }

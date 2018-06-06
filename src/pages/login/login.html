@@ -1,5 +1,5 @@
 <ion-content>
-  <button class="btn">back</button>
+  <button class="btn btn-back" (click)="goBackWelcomePage()"><i class="fas fa-chevron-left"></i></button>
 
   <div class="container">  
     <h1 class="login-title">Login</h1>
@@ -15,9 +15,16 @@
       <ion-item>
         <ion-label stacked>Password</ion-label>
         <ion-input type="password"></ion-input>
-        
       </ion-item>
-      <a href="javaScript">Forget password</a>
+
+      <p class="forget-password" >
+        <a href="javaScript">Forget password</a>
+      </p>
+
+      <button class="btn btn-large btn-secondary">Signin</button>
+
+      <p class="create-account-link">Don’t have an account? <a href="javaScript:;" (click)="goToSignupPage()">Create one</a></p>
+      
     </div>
     
   </div>
