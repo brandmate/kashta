@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs';
+import { PlpPage } from '../plp/plp';
 
 
 @IonicPage()
@@ -17,8 +18,7 @@ export class CategoriesPage {
     console.log('ionViewDidLoad CategoriesPage');
   }
 
-  goBack() {
-    console.log("adjhfa sdkfa sdfsd");
-    this.navCtrl.pop();
+  goToPlpPage() {
+    this.navCtrl.push(PlpPage);
   }
 }

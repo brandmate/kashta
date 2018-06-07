@@ -13,6 +13,7 @@ import { WelcomePage } from '../pages/welcome/welcome';
 import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
 import { CategoriesPage } from '../pages/categories/categories';
+import { PlpPage } from '../pages/plp/plp';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CategoriesPage } from '../pages/categories/categories';
     WelcomePage,
     LoginPage,
     SignupPage,
-    CategoriesPage
+    CategoriesPage,
+    PlpPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { CategoriesPage } from '../pages/categories/categories';
     WelcomePage,
     LoginPage,
     SignupPage,
-    CategoriesPage
+    CategoriesPage,
+    PlpPage
   ],
   providers: [
     StatusBar,
