@@ -14,6 +14,11 @@ import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
 import { CategoriesPage } from '../pages/categories/categories';
 import { PlpPage } from '../pages/plp/plp';
+import { CartPage } from '../pages/cart/cart';
+import { AccountPage } from '../pages/account/account';
+import { OrdersPage } from '../pages/orders/orders';
+import { CardsPage } from '../pages/cards/cards';
+import { ProfilePage } from '../pages/profile/profile';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { PlpPage } from '../pages/plp/plp';
     LoginPage,
     SignupPage,
     CategoriesPage,
-    PlpPage
+    PlpPage,
+    CartPage,
+    AccountPage,
+    OrdersPage,
+    CardsPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +51,12 @@ import { PlpPage } from '../pages/plp/plp';
     LoginPage,
     SignupPage,
     CategoriesPage,
-    PlpPage
+    PlpPage,
+    CartPage,
+    AccountPage,
+    OrdersPage,
+    CardsPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,

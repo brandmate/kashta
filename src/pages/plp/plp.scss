@@ -1,13 +1,98 @@
 page-plp {
+
+    ion-content {
+        background: #fff !important;
+    }
     .header-custom-heading {
         font: 500 20px $primary;
         text-align: center;
         color: #fff;
+        margin: 0px;
     }
 
     .header-custom-subheading {
         font: 400 16px $primary;
         text-align: center;
         color: #fff;
+        margin: 0px;
+    }
+
+    .header-action {
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        .action-group {
+            padding: 0px;
+            margin-top: 22px;
+
+            &-item {
+                list-style: none;
+                float: left;
+                margin-left: 15px;
+                color: #fff;
+                font-size: 20px;
+
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .product-group {
+        
+        &-item {
+            position: relative;
+
+            .product-link {
+                .figure {
+                    &-img {
+                        width: 100%;
+                        height: 200px;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .product-tags {
+                        position: absolute;
+                        top: 20px;
+                        left: 10px;
+
+                        .discount {
+                            padding: 5px 15px;
+                            background: map-get($colors, danger);
+                            border-left: 5px solid darken(map-get($colors, danger), 20%);
+                            color: #fff;
+                            font: 500 16px $primary;
+                        }
+                    }
+                }
+
+                .figure-caption {
+                    margin-top: 15px;
+
+                    .caption-title {
+                        font: 400 24px $primary;
+                        color: #808080;
+                        margin: 0px;
+                    }
+
+                    .caption-location {
+                        margin: 0px;
+                        font: 400 16px $primary;
+                        color: #808080;
+                    }
+                }
+            }
+        }
+
+        &-item:not(:last-child) {
+            margin-bottom: 40px;
+        }
     }
 }

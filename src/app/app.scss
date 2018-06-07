@@ -2,6 +2,12 @@
     padding: 30px;
 }
 
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 .btn {
     display: block;
     border-radius: 5px;
@@ -71,9 +77,10 @@ a {
 ion-header{
     ion-navbar.toolbar {
         padding: 25px 10px;
+        height:90px;
 
         &.search-bar {
-            padding: 50px 10px 10px 10px;
+            padding: 40px 10px 10px 10px;
         }
         
         ion-title {

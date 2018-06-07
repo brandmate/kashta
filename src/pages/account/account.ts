@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { OrdersPage } from '../orders/orders';
+import { CardsPage } from '../cards/cards';
+import { ProfilePage } from '../profile/profile';
 
 /**
  * Generated class for the AccountPage page.
@@ -20,6 +23,18 @@ export class AccountPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AccountPage');
+  }
+
+  goToOrdersPage() {
+    this.navCtrl.push(OrdersPage);
+  }
+
+  goToCardsPage() {
+    this.navCtrl.push(CardsPage);
+  }
+
+  goToProfilePage() {
+    this.navCtrl.push(ProfilePage);
   }
 
 }

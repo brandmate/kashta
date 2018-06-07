@@ -11,6 +11,7 @@ import { PlpPage } from '../plp/plp';
 })
 export class CategoriesPage {
 
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -21,4 +22,5 @@ export class CategoriesPage {
   goToPlpPage() {
     this.navCtrl.push(PlpPage);
   }
+
 }
