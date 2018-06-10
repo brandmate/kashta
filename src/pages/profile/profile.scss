@@ -1,3 +1,38 @@
 page-profile {
+    .profile-header {
+        height: 220px;
+        overflow: hidden;
+        position: relative;
 
+        .profile-image {
+            img {
+                width: 100%;
+            }
+        }
+
+        .btn-back {
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .profile-title {
+        font: 700 20px $primary;
+        color: #333;
+    }
+
+    .profile-instructuon {
+        font: 400 14px/18px $primary;
+        color: rgba(#808080, .8);
+    }
+
+    .btn-secondary {
+        margin-top: 10px;
+    }
+
+    .btn-light {
+        margin-top: 10px;
+        background: #e9e9e9;
+    }
 }

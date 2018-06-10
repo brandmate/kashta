@@ -5,5 +5,46 @@ page-home {
         overflow: hidden;
     }
 
+    .featured {
+        margin-top: 40px;
+        &-list {
+            padding: 0px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+            width: auto;
+
+            &-item {
+                width: 330px;
+                display: inline-block;
+                list-style: none;
+                margin-right: 20px;
+
+                .product-image {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .product-detail {
+                    &-info {
+                        .name {
+                            margin: 0px; 
+                            font: 400 20px $primary;
+                            color: rgba(#808080, .8);
+                        }
+
+                        .location {
+                            margin: 0px;
+                            font: 400 14px $primary;
+                            color: rgba(#808080, .8);
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
 }

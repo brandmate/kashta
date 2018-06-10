@@ -1,3 +1,33 @@
 page-cards {
+    .credit-group {
+        .credit-card {
+            padding: 30px 20px;
+            border-radius: 5px;
+            border: 1px solid #dcdcdc;
 
+            li {
+                list-style: none;
+
+                &.credit-card-icon {
+                    float: left;
+                    margin-right: 30px;
+
+                    img {
+                        width: 46px;
+                    }
+                }
+
+                &.credit-card-no {
+                    font: 500 16px $primary;
+                    color: #333;
+
+                    span {
+                        display: block;
+                        font: 500 14px $primary;
+                        color: #808080;
+                    }
+                }
+            }
+        }
+    }
 }
