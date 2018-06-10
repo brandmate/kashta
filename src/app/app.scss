@@ -38,11 +38,23 @@
     &-back {
         background: transparent;
         position: absolute;
-        top: 15px;
-        left: 15px;
+        top: 0;
+        left: 0;
 
         i {
             font-size: 24px;
+        }
+    }
+
+    &-camera {
+        background: transparent;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        i {
+            font-size: 24px;
+            color: #fff;
         }
     }
 }
@@ -121,4 +133,19 @@ ion-header{
 .page-title {
     font: 500 24px $primary;
     color: map-get($colors, dark);
+}
+
+.sprater {
+    height: 15px;
+    width: 100%;
+    background: #e9e9e9;
+    margin-top: 40px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    background: map-get($colors, primary);
 }

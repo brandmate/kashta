@@ -1,3 +1,24 @@
 page-tutorial {
+    .slide-item {
+        width: 100%;
+        height: 100vh;
 
+        .slide-content {
+            padding: 20px;
+            position: absolute;
+            bottom: 20px;
+            color: #fff;
+            z-index: 99;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background:  rgba(map-get($colors , secondary ), .9);
+        }
+    }
 }

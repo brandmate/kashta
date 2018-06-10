@@ -56,17 +56,12 @@ page-account {
 
                 .action-text {
                     font: 400 14px $primary;
-                    color: map-get($colors, primary);
+                    color: map-get($colors, dark);
                     margin: 0px;
                 }
             }
         }
     }
 
-    .sprater {
-        height: 15px;
-        width: 100%;
-        background: #808080;
-        margin-top: 40px;
-    }
+   
 }
