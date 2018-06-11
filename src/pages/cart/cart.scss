@@ -1,3 +1,23 @@
 page-cart {
+    .product-list {
+        &-item {
+            .product-image {
+                width: 40%;
+                float: left;
+            }
 
+            .product-detail {
+                width: 60%;
+                float: left;
+
+                .name {
+                    margin: 0px;
+                }
+
+                .price {
+                    margin: 0px;
+                }
+            }
+        }
+    }
 }
