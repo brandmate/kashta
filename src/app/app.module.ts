@@ -19,6 +19,7 @@ import { AccountPage } from '../pages/account/account';
 import { OrdersPage } from '../pages/orders/orders';
 import { CardsPage } from '../pages/cards/cards';
 import { ProfilePage } from '../pages/profile/profile';
+import { PdpPage } from '../pages/pdp/pdp';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ProfilePage } from '../pages/profile/profile';
     AccountPage,
     OrdersPage,
     CardsPage,
-    ProfilePage
+    ProfilePage,
+    PdpPage
   ],
   imports: [
     BrowserModule,
@@ -56,7 +58,8 @@ import { ProfilePage } from '../pages/profile/profile';
     AccountPage,
     OrdersPage,
     CardsPage,
-    ProfilePage
+    ProfilePage,
+    PdpPage
   ],
   providers: [
     StatusBar,
