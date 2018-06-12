@@ -1,6 +1,16 @@
 page-cart {
     .product-list {
         &-item {
+            padding-bottom: 20px;
+            
+            &:not(:first-child) {
+                padding-top: 20px;
+            }
+
+            &:not(:last-child) {
+                border-bottom: 1px solid #808080;
+            }
+
             .product-image {
                 width: 40%;
                 float: left;
@@ -9,13 +19,36 @@ page-cart {
             .product-detail {
                 width: 60%;
                 float: left;
+                padding-left: 20px;
 
                 .name {
                     margin: 0px;
+                    font: 400 16px $primary;
+                    color: #808080;
                 }
 
                 .price {
                     margin: 0px;
+                    font: 500 20px $primary;
+                    color: #333;
+                }
+
+                .product-action {
+                    margin-top: 10px;
+
+                    select {
+                        padding: 5px 20px;
+                        border: 1px solid #333;
+                    }
+
+                    .btn-remove {
+                        display: inline;
+                        padding: 5px 20px;
+                        font: 400 16px $primary;
+                        background: transparent;
+                        border: 1px solid #333;
+                        margin-left: 3px;
+                    }
                 }
             }
         }
