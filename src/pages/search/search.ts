@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { CheckoutPage } from '../checkout/checkout';
 
 /**
- * Generated class for the CartPage page.
+ * Generated class for the SearchPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import { CheckoutPage } from '../checkout/checkout';
 
 @IonicPage()
 @Component({
-  selector: 'page-cart',
-  templateUrl: 'cart.html',
+  selector: 'page-search',
+  templateUrl: 'search.html',
 })
-export class CartPage {
+export class SearchPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CartPage');
-  }
-
-  goToCheckout() {
-    this.navCtrl.push(CheckoutPage);
+    console.log('ionViewDidLoad SearchPage');
   }
 
 }

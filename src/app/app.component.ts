@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+import { SplashScreen } from '@ionic-native/splash-screen';0
 import {KashtaApi} from './shared/shared';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-
-
 
 @Component({
   templateUrl: 'app.html',

@@ -13,6 +13,76 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <div class="product-list">
+    <div class="product-list-item clearfix">
+      <div class="product-image">
+        <img src="assets/imgs/product01.png" alt="">
+      </div>
 
+      <div class="product-detail">
+        <h2 class="name">Product Name</h2>
+        <h4 class="price">134 AED</h4>
+
+        <div class="product-action">
+          <select name="" id="">
+            <option value="01">01</option>
+            <option value="01">02</option>
+            <option value="01">03</option>
+            <option value="01">04</option>
+            <option value="01">05</option>
+          </select>
+
+          <button class="btn btn-remove">Remove</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-list-item clearfix">
+      <div class="product-image">
+        <img src="assets/imgs/product01.png" alt="">
+      </div>
+
+      <div class="product-detail">
+        <h2 class="name">Product Name</h2>
+        <h4 class="price">134 AED</h4>
+
+        <div class="product-action">
+          <select name="" id="">
+            <option value="01">01</option>
+            <option value="01">02</option>
+            <option value="01">03</option>
+            <option value="01">04</option>
+            <option value="01">05</option>
+          </select>
+
+          <button class="btn btn-remove">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sprater"></div>
+
+  <div class="cart-detail">
+    <p>Our checkout is safe and secure. Your personal and payment information is securely transmitted via 128-bit encryption. We do not store any payment card information on our system</p>
+    <img src="assets/imgs/cart.png" alt="">
+  </div>
+
+  <div class="cart-footer">
+    <table class="cart-footer-table">
+      <tr class="">
+        <td class="name">Sub Total <span>(1 Items)</span></td>
+        <td class="price">AED 103.00</td>
+      </tr>
+
+      <tr class="">
+        <td class="name total">Cart Total <span>(Inclusive VAT)</span></td>
+        <td class="price total">AED 103.00</td>
+      </tr>
+    </table>
+
+    <button class="btn btn-large btn-secondary" (click)="goToCheckout()">Secure checkout</button>
+  </div>
+  
 </ion-content>
