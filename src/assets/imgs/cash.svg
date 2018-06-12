@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkout" transform="translate(-295.000000, -119.000000)">
+            <g id="Group-8" transform="translate(295.000000, 119.000000)">
+                <rect id="Rectangle-2" stroke="#848484" x="0.5" y="0.5" width="25" height="17" rx="2"></rect>
+                <text id="CASH" font-family="Ubuntu-MediumItalic, Ubuntu" font-size="6" font-style="italic" font-weight="500" fill="#848484">
+                    <tspan x="5.09" y="11">CASH</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

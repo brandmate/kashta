@@ -1,0 +1,169 @@
+page-checkout {
+    .payment-options {
+        padding: 0px;
+        &-item {
+            width: 33.333%;
+            float: left;
+            padding-left: 5px;
+            padding-right: 5px;
+            list-style: none;
+
+            .content {
+                border: 1px solid #808080;
+                border-radius: 5px;
+                text-align: center;
+                padding: 10px 5px;
+
+                img {
+                    height: 24px;
+                    width: auto;
+                }
+
+                .name {
+                    font: 400 12px $primary;
+                    margin: 0px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    .order-summary {
+        border: 1px solid #808080;
+        border-radius: 5px;
+        padding: 15px;
+
+        &-title {
+            font: 500 14px $primary;
+            color: #333;
+        }
+
+        .summary {
+            &-table {
+                width: 100%;
+                margin-bottom: 20px;
+    
+                tr {
+
+                    &.total {
+                        border-top: 1px solid #808080;
+                        .name {
+                            padding-top: 10px;
+                        }
+                    }
+                    .name {
+                        font: 500 14px $primary;
+                        color: #333;
+                        padding-bottom: 5px;
+    
+                        span {
+                            font: 400 12px $primary;
+                            color: #808080;
+                        }
+    
+                        &.total {
+                            font: 700 14px $primary;
+                            color: #333;
+                            padding-bottom: 10px;
+                        }
+                    }
+    
+                    .price {
+                        text-align: right;
+                        font: 300 14px $primary;
+                        color: #333;
+    
+                        &.total {
+                            font: 700 14px $primary;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .product-list {
+        padding: 10px;
+        margin-top: 20px;
+        padding-bottom: 80px;
+
+        .title {
+            font: 500 14px $primary;
+        }
+
+        &-item {
+            padding-bottom: 20px;
+            
+            &:not(:first-child) {
+                padding-top: 20px;
+            }
+
+            &:not(:last-child) {
+                border-bottom: 1px solid #808080;
+            }
+
+            .product-image {
+                width: 40%;
+                float: left;
+            }
+
+            .product-detail {
+                width: 60%;
+                float: left;
+                padding-left: 20px;
+
+                .name {
+                    margin: 0px;
+                    font: 400 16px $primary;
+                    color: #808080;
+                }
+
+                .price {
+                    margin: 0px;
+                    font: 700 14px $primary;
+                    color: #808080;
+                    margin-top: 5px;
+                }
+
+                .product-action {
+                    margin-top: 20px;
+
+                    select {
+                        padding: 5px 20px;
+                        border: 1px solid #808080;
+                    }
+
+                    .btn-remove {
+                        display: inline;
+                        padding: 5px 20px;
+                        font: 400 16px $primary;
+                        background: transparent;
+                        border: 1px solid #808080;
+                        margin-left: 3px;
+                    }
+                }
+            }
+        }
+    }
+
+    .cart-footer {
+        padding: 20px;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+
+        .btn-large {
+            width: 49%;
+            display: inline-block;
+
+            &.apple-pay {
+                background: #000;
+            }
+        }
+    }
+}

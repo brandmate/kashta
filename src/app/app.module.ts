@@ -21,6 +21,7 @@ import { CardsPage } from '../pages/cards/cards';
 import { ProfilePage } from '../pages/profile/profile';
 import { PdpPage } from '../pages/pdp/pdp';
 import { SearchPage } from '../pages/search/search';
+import { CheckoutPage } from '../pages/checkout/checkout';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,11 @@ import { SearchPage } from '../pages/search/search';
     CardsPage,
     ProfilePage,
     PdpPage,
-    SearchPage
+    SearchPage,
+    CheckoutPage,
+    PdpPage,
+    PdpPage
+
   ],
   imports: [
     BrowserModule,
@@ -62,7 +67,9 @@ import { SearchPage } from '../pages/search/search';
     CardsPage,
     ProfilePage,
     PdpPage,
-    SearchPage
+    SearchPage,
+    CheckoutPage,
+    PdpPage
   ],
   providers: [
     StatusBar,
